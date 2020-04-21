@@ -3,27 +3,69 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B07CC4E24411F0C007954E9 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B07CC4D24411F0C007954E9 /* RegistrationView.swift */; };
+		9B07CC5024422AA0007954E9 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B07CC4F24422AA0007954E9 /* ImagePicker.swift */; };
+		9B07CC5224422C60007954E9 /* ProfileImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B07CC5124422C60007954E9 /* ProfileImagePickerView.swift */; };
+		9B07CC542442300A007954E9 /* TextGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B07CC532442300A007954E9 /* TextGestureRecognizer.swift */; };
+		9B07CC5624423433007954E9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B07CC5524423433007954E9 /* Constants.swift */; };
+		9B07CC5824423A0C007954E9 /* RegistrationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B07CC5724423A0C007954E9 /* RegistrationService.swift */; };
+		9B07CC5A24425DE9007954E9 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B07CC5924425DE9007954E9 /* CategoryView.swift */; };
+		9B2D3ED3244370FB00666807 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2D3ED2244370FB00666807 /* LoginService.swift */; };
+		9B2D3ED524438DC000666807 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2D3ED424438DC000666807 /* SessionStore.swift */; };
+		9B2D3ED72443B2DF00666807 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2D3ED62443B2DF00666807 /* HomeView.swift */; };
+		9B8F7885244C95C70063156D /* ActivityIndicatorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8F7884244C95C70063156D /* ActivityIndicatorService.swift */; };
 		9B98D852243F7FF10006248C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B98D851243F7FF10006248C /* AppDelegate.swift */; };
 		9B98D854243F7FF10006248C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B98D853243F7FF10006248C /* SceneDelegate.swift */; };
-		9B98D856243F7FF10006248C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B98D855243F7FF10006248C /* ContentView.swift */; };
+		9B98D856243F7FF10006248C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B98D855243F7FF10006248C /* LoginView.swift */; };
 		9B98D858243F7FF60006248C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B98D857243F7FF60006248C /* Assets.xcassets */; };
 		9B98D85B243F7FF60006248C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B98D85A243F7FF60006248C /* Preview Assets.xcassets */; };
 		9B98D85E243F7FF60006248C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B98D85C243F7FF60006248C /* LaunchScreen.storyboard */; };
+		9BD3C0282448F79F00E87D57 /* ResetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD3C0272448F79F00E87D57 /* ResetPasswordView.swift */; };
+		9BE02D342444D38F00A5990D /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE02D332444D38F00A5990D /* UserViewModel.swift */; };
+		9BE02D362444E83300A5990D /* QueryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE02D352444E83300A5990D /* QueryService.swift */; };
+		9BE02D382445699600A5990D /* AddCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE02D372445699600A5990D /* AddCategoryView.swift */; };
+		9BE02D3A24456A4600A5990D /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE02D3924456A4600A5990D /* UserProfileView.swift */; };
+		9BE24248244A5A5500D4FE15 /* ResetPasswordService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE24247244A5A5500D4FE15 /* ResetPasswordService.swift */; };
+		9BFA587A243F8FEB00BFE1F4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9BFA5879243F8FEB00BFE1F4 /* GoogleService-Info.plist */; };
+		9BFA5880243F93DB00BFE1F4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFA587F243F93DB00BFE1F4 /* User.swift */; };
+		9C5E9FD05D57D687E0EA7081 /* Pods_ToDoList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A355877FA76CA0348EF939D5 /* Pods_ToDoList.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		82EA3F8E312DB821C81E4F5F /* Pods-ToDoList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoList.debug.xcconfig"; path = "Target Support Files/Pods-ToDoList/Pods-ToDoList.debug.xcconfig"; sourceTree = "<group>"; };
+		9B07CC4D24411F0C007954E9 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		9B07CC4F24422AA0007954E9 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		9B07CC5124422C60007954E9 /* ProfileImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImagePickerView.swift; sourceTree = "<group>"; };
+		9B07CC532442300A007954E9 /* TextGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextGestureRecognizer.swift; sourceTree = "<group>"; };
+		9B07CC5524423433007954E9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9B07CC5724423A0C007954E9 /* RegistrationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationService.swift; sourceTree = "<group>"; };
+		9B07CC5924425DE9007954E9 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		9B2D3ED2244370FB00666807 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		9B2D3ED424438DC000666807 /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
+		9B2D3ED62443B2DF00666807 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9B8F7884244C95C70063156D /* ActivityIndicatorService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorService.swift; sourceTree = "<group>"; };
 		9B98D84E243F7FF10006248C /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B98D851243F7FF10006248C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B98D853243F7FF10006248C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9B98D855243F7FF10006248C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9B98D855243F7FF10006248C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		9B98D857243F7FF60006248C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B98D85A243F7FF60006248C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9B98D85D243F7FF60006248C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B98D85F243F7FF60006248C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BD3C0272448F79F00E87D57 /* ResetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordView.swift; sourceTree = "<group>"; };
+		9BE02D332444D38F00A5990D /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		9BE02D352444E83300A5990D /* QueryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryService.swift; sourceTree = "<group>"; };
+		9BE02D372445699600A5990D /* AddCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategoryView.swift; sourceTree = "<group>"; };
+		9BE02D3924456A4600A5990D /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		9BE24247244A5A5500D4FE15 /* ResetPasswordService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordService.swift; sourceTree = "<group>"; };
+		9BFA5879243F8FEB00BFE1F4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9BFA587F243F93DB00BFE1F4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		9CC7E2ABBE0EE0C167C85FDD /* Pods-ToDoList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoList.release.xcconfig"; path = "Target Support Files/Pods-ToDoList/Pods-ToDoList.release.xcconfig"; sourceTree = "<group>"; };
+		A355877FA76CA0348EF939D5 /* Pods_ToDoList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToDoList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +73,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C5E9FD05D57D687E0EA7081 /* Pods_ToDoList.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49B65E771581D07CBC81B9DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82EA3F8E312DB821C81E4F5F /* Pods-ToDoList.debug.xcconfig */,
+				9CC7E2ABBE0EE0C167C85FDD /* Pods-ToDoList.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7695492F4F659B31C7BC5823 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A355877FA76CA0348EF939D5 /* Pods_ToDoList.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B2D3ED12443706C00666807 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				9B07CC5724423A0C007954E9 /* RegistrationService.swift */,
+				9B2D3ED2244370FB00666807 /* LoginService.swift */,
+				9BE24247244A5A5500D4FE15 /* ResetPasswordService.swift */,
+				9B2D3ED424438DC000666807 /* SessionStore.swift */,
+				9BE02D352444E83300A5990D /* QueryService.swift */,
+				9B8F7884244C95C70063156D /* ActivityIndicatorService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		9B98D845243F7FF10006248C = {
 			isa = PBXGroup;
 			children = (
 				9B98D850243F7FF10006248C /* ToDoList */,
 				9B98D84F243F7FF10006248C /* Products */,
+				49B65E771581D07CBC81B9DC /* Pods */,
+				7695492F4F659B31C7BC5823 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +131,17 @@
 		9B98D850243F7FF10006248C /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
+				9B2D3ED12443706C00666807 /* Service */,
+				9BA2B5EF243FB5EE009A2E9E /* Helper */,
+				9BFA587D243F91A200BFE1F4 /* Models */,
+				9BFA587C243F919E00BFE1F4 /* View Models */,
+				9BFA587B243F918F00BFE1F4 /* Views */,
 				9B98D851243F7FF10006248C /* AppDelegate.swift */,
 				9B98D853243F7FF10006248C /* SceneDelegate.swift */,
-				9B98D855243F7FF10006248C /* ContentView.swift */,
 				9B98D857243F7FF60006248C /* Assets.xcassets */,
 				9B98D85C243F7FF60006248C /* LaunchScreen.storyboard */,
 				9B98D85F243F7FF60006248C /* Info.plist */,
+				9BFA5879243F8FEB00BFE1F4 /* GoogleService-Info.plist */,
 				9B98D859243F7FF60006248C /* Preview Content */,
 			);
 			path = ToDoList;
@@ -75,6 +155,55 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		9BA2B5EF243FB5EE009A2E9E /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				9B07CC4F24422AA0007954E9 /* ImagePicker.swift */,
+				9B07CC532442300A007954E9 /* TextGestureRecognizer.swift */,
+				9B07CC5524423433007954E9 /* Constants.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		9BD3C0262448F74F00E87D57 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				9B98D855243F7FF10006248C /* LoginView.swift */,
+				9B07CC4D24411F0C007954E9 /* RegistrationView.swift */,
+				9BD3C0272448F79F00E87D57 /* ResetPasswordView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		9BFA587B243F918F00BFE1F4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9BD3C0262448F74F00E87D57 /* Login */,
+				9B2D3ED62443B2DF00666807 /* HomeView.swift */,
+				9B07CC5124422C60007954E9 /* ProfileImagePickerView.swift */,
+				9B07CC5924425DE9007954E9 /* CategoryView.swift */,
+				9BE02D3924456A4600A5990D /* UserProfileView.swift */,
+				9BE02D372445699600A5990D /* AddCategoryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9BFA587C243F919E00BFE1F4 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				9BE02D332444D38F00A5990D /* UserViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		9BFA587D243F91A200BFE1F4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9BFA587F243F93DB00BFE1F4 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +211,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B98D862243F7FF60006248C /* Build configuration list for PBXNativeTarget "ToDoList" */;
 			buildPhases = (
+				C7A5C25AE96E13E713167C3C /* [CP] Check Pods Manifest.lock */,
 				9B98D84A243F7FF10006248C /* Sources */,
 				9B98D84B243F7FF10006248C /* Frameworks */,
 				9B98D84C243F7FF10006248C /* Resources */,
+				28A5AAA6201307BFC87952C5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -134,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B98D85E243F7FF60006248C /* LaunchScreen.storyboard in Resources */,
+				9BFA587A243F8FEB00BFE1F4 /* GoogleService-Info.plist in Resources */,
 				9B98D85B243F7FF60006248C /* Preview Assets.xcassets in Resources */,
 				9B98D858243F7FF60006248C /* Assets.xcassets in Resources */,
 			);
@@ -141,14 +273,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		28A5AAA6201307BFC87952C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToDoList/Pods-ToDoList-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToDoList/Pods-ToDoList-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ToDoList/Pods-ToDoList-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7A5C25AE96E13E713167C3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ToDoList-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9B98D84A243F7FF10006248C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BFA5880243F93DB00BFE1F4 /* User.swift in Sources */,
+				9BE02D3A24456A4600A5990D /* UserProfileView.swift in Sources */,
+				9B2D3ED72443B2DF00666807 /* HomeView.swift in Sources */,
 				9B98D852243F7FF10006248C /* AppDelegate.swift in Sources */,
+				9B07CC542442300A007954E9 /* TextGestureRecognizer.swift in Sources */,
+				9BE02D362444E83300A5990D /* QueryService.swift in Sources */,
 				9B98D854243F7FF10006248C /* SceneDelegate.swift in Sources */,
-				9B98D856243F7FF10006248C /* ContentView.swift in Sources */,
+				9B07CC5024422AA0007954E9 /* ImagePicker.swift in Sources */,
+				9B07CC5A24425DE9007954E9 /* CategoryView.swift in Sources */,
+				9BE02D382445699600A5990D /* AddCategoryView.swift in Sources */,
+				9B8F7885244C95C70063156D /* ActivityIndicatorService.swift in Sources */,
+				9B2D3ED524438DC000666807 /* SessionStore.swift in Sources */,
+				9B98D856243F7FF10006248C /* LoginView.swift in Sources */,
+				9B2D3ED3244370FB00666807 /* LoginService.swift in Sources */,
+				9B07CC4E24411F0C007954E9 /* RegistrationView.swift in Sources */,
+				9BD3C0282448F79F00E87D57 /* ResetPasswordView.swift in Sources */,
+				9B07CC5224422C60007954E9 /* ProfileImagePickerView.swift in Sources */,
+				9BE24248244A5A5500D4FE15 /* ResetPasswordService.swift in Sources */,
+				9B07CC5624423433007954E9 /* Constants.swift in Sources */,
+				9BE02D342444D38F00A5990D /* UserViewModel.swift in Sources */,
+				9B07CC5824423A0C007954E9 /* RegistrationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +474,7 @@
 		};
 		9B98D863243F7FF60006248C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82EA3F8E312DB821C81E4F5F /* Pods-ToDoList.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +495,7 @@
 		};
 		9B98D864243F7FF60006248C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CC7E2ABBE0EE0C167C85FDD /* Pods-ToDoList.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
